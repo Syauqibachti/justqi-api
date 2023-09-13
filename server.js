@@ -25,8 +25,8 @@ app.use("/wibudesu", wibudesu)
 app.get("/", (req, res) => {
     res.status(200).json({
         message: "Unofficial Komik, Drakor and Anime APIs",
-        developed_by: "ZeroneDoo",
-        github: "https://github.com/ZeroneDoo",
+        developed_by: "Syauqibachti",
+        github: "https://github.com/Syauqibachti",
         data: {
             komiku_url: process.env.KOMIKU_URL,
             drakorkita_url: process.env.DRAKORKITA_URL,
